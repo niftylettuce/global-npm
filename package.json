@@ -3,6 +3,7 @@
   "version": "0.3.0",
   "description": "Require global npm as a local node module.",
   "main": "index.js",
+  "bin": "cli.js",
   "scripts": {
     "test": "standard && node test.js"
   },
@@ -12,7 +13,8 @@
     "which": "latest"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "cli.js"
   ],
   "repository": {
     "type": "git",
